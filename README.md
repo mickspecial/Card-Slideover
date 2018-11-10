@@ -23,7 +23,7 @@ class ViewController: UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     
-    // 2. Set up card after the parent VC has be layed out
+    // 2. Set up card after the parent VC has been layed out
    if cardViewController == nil {
       cardViewController = CardViewController()
       cardViewController.place(on: self, percentageShownWhenExpanded: 0.7)
