@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000041102195B8F6001A14B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000410F2195B8F6001A14B0 /* AppDelegate.swift */; };
+		000041122195B8F6001A14B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000041112195B8F6001A14B0 /* ViewController.swift */; };
+		000041172195B8F6001A14B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000041162195B8F6001A14B0 /* Assets.xcassets */; };
+		0000411A2195B8F6001A14B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000041182195B8F6001A14B0 /* LaunchScreen.storyboard */; };
+		000041222195BAB4001A14B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000041212195BAB4001A14B0 /* Extensions.swift */; };
+		000041242195BAF4001A14B0 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000041232195BAF4001A14B0 /* CardViewController.swift */; };
+		000041262195D746001A14B0 /* CardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000041252195D746001A14B0 /* CardHelper.swift */; };
+		00A5C4372196513F0033B3D6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 00A5C4362196513F0033B3D6 /* README.md */; };
+		00FBF23721965D1F00393EF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 00FBF23621965D1F00393EF8 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0000410C2195B8F6001A14B0 /* Card Slideover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Slideover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000410F2195B8F6001A14B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000041112195B8F6001A14B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		000041162195B8F6001A14B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000041192195B8F6001A14B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0000411B2195B8F6001A14B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000041212195BAB4001A14B0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		000041232195BAF4001A14B0 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		000041252195D746001A14B0 /* CardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHelper.swift; sourceTree = "<group>"; };
+		00A5C4362196513F0033B3D6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		00FBF23621965D1F00393EF8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000041092195B8F6001A14B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000041032195B8F6001A14B0 = {
+			isa = PBXGroup;
+			children = (
+				0000410E2195B8F6001A14B0 /* Card Slideover */,
+				00FBF23621965D1F00393EF8 /* LICENSE */,
+				00A5C4362196513F0033B3D6 /* README.md */,
+				0000410D2195B8F6001A14B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0000410D2195B8F6001A14B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000410C2195B8F6001A14B0 /* Card Slideover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0000410E2195B8F6001A14B0 /* Card Slideover */ = {
+			isa = PBXGroup;
+			children = (
+				00A5C435219647480033B3D6 /* Card */,
+				000041112195B8F6001A14B0 /* ViewController.swift */,
+				0000410F2195B8F6001A14B0 /* AppDelegate.swift */,
+				000041162195B8F6001A14B0 /* Assets.xcassets */,
+				000041182195B8F6001A14B0 /* LaunchScreen.storyboard */,
+				0000411B2195B8F6001A14B0 /* Info.plist */,
+			);
+			path = "Card Slideover";
+			sourceTree = "<group>";
+		};
+		00A5C435219647480033B3D6 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				000041232195BAF4001A14B0 /* CardViewController.swift */,
+				000041252195D746001A14B0 /* CardHelper.swift */,
+				000041212195BAB4001A14B0 /* Extensions.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0000410B2195B8F6001A14B0 /* Card Slideover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000411E2195B8F6001A14B0 /* Build configuration list for PBXNativeTarget "Card Slideover" */;
+			buildPhases = (
+				000041082195B8F6001A14B0 /* Sources */,
+				000041092195B8F6001A14B0 /* Frameworks */,
+				0000410A2195B8F6001A14B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Slideover";
+			productName = fd;
+			productReference = 0000410C2195B8F6001A14B0 /* Card Slideover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000041042195B8F6001A14B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Michael Schembri";
+				TargetAttributes = {
+					0000410B2195B8F6001A14B0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 000041072195B8F6001A14B0 /* Build configuration list for PBXProject "Card Slideover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000041032195B8F6001A14B0;
+			productRefGroup = 0000410D2195B8F6001A14B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0000410B2195B8F6001A14B0 /* Card Slideover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0000410A2195B8F6001A14B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A5C4372196513F0033B3D6 /* README.md in Resources */,
+				0000411A2195B8F6001A14B0 /* LaunchScreen.storyboard in Resources */,
+				00FBF23721965D1F00393EF8 /* LICENSE in Resources */,
+				000041172195B8F6001A14B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000041082195B8F6001A14B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000041262195D746001A14B0 /* CardHelper.swift in Sources */,
+				000041122195B8F6001A14B0 /* ViewController.swift in Sources */,
+				000041222195BAB4001A14B0 /* Extensions.swift in Sources */,
+				000041242195BAF4001A14B0 /* CardViewController.swift in Sources */,
+				000041102195B8F6001A14B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		000041182195B8F6001A14B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000041192195B8F6001A14B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0000411C2195B8F6001A14B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0000411D2195B8F6001A14B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0000411F2195B8F6001A14B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LHMS623C9;
+				INFOPLIST_FILE = "Card Slideover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelschembri.CardSlideover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000041202195B8F6001A14B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LHMS623C9;
+				INFOPLIST_FILE = "Card Slideover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelschembri.CardSlideover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000041072195B8F6001A14B0 /* Build configuration list for PBXProject "Card Slideover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000411C2195B8F6001A14B0 /* Debug */,
+				0000411D2195B8F6001A14B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000411E2195B8F6001A14B0 /* Build configuration list for PBXNativeTarget "Card Slideover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000411F2195B8F6001A14B0 /* Debug */,
+				000041202195B8F6001A14B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000041042195B8F6001A14B0 /* Project object */;
+}
