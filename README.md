@@ -17,26 +17,25 @@ see [Use Case 2](https://www.raywenderlich.com/221-recreating-the-apple-music-no
 ```swift
 class ViewController: UIViewController {
 
-// 1. Set instance var for the card controller
-var cardViewController: CardViewController!
-
-override func viewWillAppear(_ animated: Bool) {
-	super.viewWillAppear(animated)
-	// 2. Set up card after the parent VC has be layed out
-	if cardViewController == nil {
-		cardViewController = CardViewController()
-		cardViewController.place(on: self, percentageShownWhenExpanded: 0.7)
-		// 3. Optional - extend the class with CardStateNotification protocol
-		registerForCardStateChanges()
-		}
-	}
+  // 1. Set instance var for the card controller
+  var cardViewController: CardViewController!
+  override func viewWillAppear(_ animated: Bool) {
+  super.viewWillAppear(animated)
+  // 2. Set up card after the parent VC has be layed out
+  if cardViewController == nil {
+    cardViewController = CardViewController()
+    cardViewController.place(on: self, percentageShownWhenExpanded: 0.7)
+    // 3. Optional - extend the class with CardStateNotification protocol
+    registerForCardStateChanges()
+    }
+  }
 }
 
 extension ViewController: CardStateNotification {
-	// allows the parent to access / respond to card state changes
-	func cardStateDidChange() {
-		print(cardViewController.currentCardState.rawValue)
-	}
+  // allows the parent to access / respond to card state changes
+  func cardStateDidChange() {
+    print(cardViewController.currentCardState.rawValue)
+  }
 }
 ```
 
