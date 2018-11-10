@@ -6,8 +6,6 @@ see [Use Case 2](https://www.raywenderlich.com/221-recreating-the-apple-music-no
 
 > Slide Up Card Controller aims to be a lightweight solution for the above use cases. For those that want a more robust solution [pulley](https://cocoapods.org/pods/Pulley) may be better suited to you
 
-![preview](https://user-images.githubusercontent.com/6512820/48295749-98102b00-e4da-11e8-9293-b34df1f434c0.gif)
-
 ----
 ## Usage
 1. Drag the Card folder into your project
@@ -44,6 +42,11 @@ extension ViewController: CardStateNotification {
   }
 }
 ```
+----
+## Preview
+
+![preview](https://user-images.githubusercontent.com/6512820/48295749-98102b00-e4da-11e8-9293-b34df1f434c0.gif)
+
 
 ----
 ## Enjoy
